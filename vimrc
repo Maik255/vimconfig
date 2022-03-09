@@ -108,7 +108,11 @@ call plug#end()
 
 " MAPPINGS --------------------------------------------------------------- {{{
 
-" Mappings code goes here.
+" Set the komma as the leader key.
+let mapleader = ","
+
+" Press leader + ne to toggle NERDTree
+nnoremap <leader>ne :NERDTreeToggle<cr>
 
 " }}}
 
@@ -129,6 +133,10 @@ augroup END
 
 " STATUS LINE ------------------------------------------------------------ {{{
 
-" Status bar code goes here.
+" Clear status line when vimrc is reloaded.
+" set statusline=
+
+" Status line left side.
+" set statusline+=\ %F\ %M\ %Y\ %R
 
 " }}}
