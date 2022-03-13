@@ -126,17 +126,11 @@ augroup filetype_vim
     autocmd FileType vim setlocal foldmethod=marker
 augroup END
 
-" More Vimscripts code goes here.
-
 " }}}
 
 
 " STATUS LINE ------------------------------------------------------------ {{{
 
-" Clear status line when vimrc is reloaded.
-" set statusline=
 
-" Status line left side.
-" set statusline+=\ %F\ %M\ %Y\ %R
 
 " }}}
